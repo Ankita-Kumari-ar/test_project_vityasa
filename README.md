@@ -1,6 +1,7 @@
 # test_project_vityasa
 
 This project is a test assignment to apply for an internship on Vityasa
+I have done this in Django Using Django Rest Framework.
 The Questions are as follows:
 Question1:
 
