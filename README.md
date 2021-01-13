@@ -1,6 +1,6 @@
 # test_project_vityasa
 
-This project is an test assignment to apply for an internship on Vityasa
+This project is a test assignment to apply for an internship on Vityasa
 The Questions are as follows:
 Question1:
 
