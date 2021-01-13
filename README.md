@@ -1,8 +1,8 @@
 # test_project_vityasa
 
-This project is a test assignment to apply for an internship on Vityasa
-I have done this in Django Using Django Rest Framework.
-The Questions are as follows:
+This project is a test assignment to apply for an internship on Vityasa._
+I have done this in Django Using Django Rest Framework._
+The Questions are as follows:_
 Question1:
 
 Write a web application in Python 3 that will take n items input and return the following stats about the positive integers in the dataset in JSON format. Eg:
