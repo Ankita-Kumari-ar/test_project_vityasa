@@ -1,5 +1,14 @@
 # test_project_vityasa
 
+heroku link-https://ankiwebtestintern.herokuapp.com/
+
+for question1 use https://ankiwebtestintern/items.herokuapp.com/
+
+for question2 use https://ankiwebtestintern/booking.herokuapp.com/  for booking and https://ankiwebtestintern/cancel.herokuapp.com/ for caancelling the booking
+
+for question3 use https://ankiwebtestintern/plot.herokuapp.com/
+
+
 This project is a test assignment to apply for an internship on Vityasa.
 
 I have done this in Django Using Django Rest Framework.
