@@ -2,9 +2,9 @@
 
 heroku link-https://ankiwebtestintern.herokuapp.com/
 
-for question1 use https://ankiwebtestintern/items.herokuapp.com/
+for question1 use https://ankiwebtestintern.herokuapp.com/items
 
-for question2 use https://ankiwebtestintern/booking.herokuapp.com/  for booking and https://ankiwebtestintern/cancel.herokuapp.com/ for caancelling the booking
+for question2 use https://ankiwebtestintern.herokuapp.com/booking  for booking and https://ankiwebtestintern.herokuapp.com/cancel for caancelling the booking
 
 for question3 use https://ankiwebtestintern/plot.herokuapp.com/
 
