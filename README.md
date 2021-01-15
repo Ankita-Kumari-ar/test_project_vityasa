@@ -1,12 +1,9 @@
 # test_project_vityasa
 
-heroku link-https://ankiwebtestintern.herokuapp.com/
+
 
 for question1 use https://ankiwebtestintern.herokuapp.com/items
 
-for question2 use https://ankiwebtestintern.herokuapp.com/booking  for booking and https://ankiwebtestintern.herokuapp.com/cancel for caancelling the booking
-
-for question3 use https://ankiwebtestintern/plot.herokuapp.com/
 
 
 This project is a test assignment to apply for an internship on Vityasa.
