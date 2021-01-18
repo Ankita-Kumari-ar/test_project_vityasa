@@ -8,21 +8,22 @@ from django.http import JsonResponse
 from django.core import serializers
 from django.conf import settings
 import json
-from flask import request
+
 # Create your views here.
 book=[] #list to store booking details where each component is a dictionary of format {"slot":slotno,"name":name}
 slotdic={} #dictionary where keys represent booked slot with number of bookings in that slot as value.
 
 @api_view(["GET","POST"])
-def booking(data):
-    if data.method=="POST":
+def booking(request):
+    if request.method=="POST":
         try:
-            data=json.loads(data.body)
+            data=json.loads(request.body)
             slot=data["slot"]
             name=data["name"]
             if slot in range(24):
                 if slot not in slotdic.keys():
                     slotdic[slot]=1
+                    
                     dic={
                         "slot": slot,
                         "name": name
@@ -48,7 +49,7 @@ def booking(data):
         except ValueError as e:
             return Response(e.args[0], status.HTTP_400_BAD_REQUEST)
     
-    elif data.method=="GET":
+    elif request.method=="GET":
         return JsonResponse(book, safe=False)
 
 

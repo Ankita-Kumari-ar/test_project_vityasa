@@ -52,8 +52,11 @@ def findsquare(gr):
     return sq
     
 @api_view(["POST"])
-def plot(data):
-    data=json.loads(data.body)
+def plot(request):
+    #if "cl" not in request.session:
+        #request.session["cl"]=[]
+    #cl=request.session["cl"]
+    data=json.loads(request.body)
     x=data["x"]
     y=data["y"]
     l=[x,y] #creating a list of x and y coordinates to represent a point of 2D plane.
