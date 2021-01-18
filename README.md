@@ -8,7 +8,7 @@ for question1 use https://ankiwebtestintern.herokuapp.com/items
 
 This project is a test assignment to apply for an internship on Vityasa.
 
-I have done this in Django Using Django Rest Framework.
+I have done this in Django Without Using Django Rest Framework.
 
 The Questions are as follows:
 
