@@ -85,7 +85,7 @@ def cancel(data):
                                     cond=1
                                     book.pop(i)
                                     break
-                    if cond==1: #means found the matchind data in list book.
+                    if cond==1: #means found the matching data in list book.
                         return JsonResponse({"status": f"cancelled booking for {name} in slot {slot}"}, safe=False)
                     else:
                         return JsonResponse({"status": f"no booking for the name {name} in slot {slot}"}, safe=False)
